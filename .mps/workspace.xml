@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarksTool">
+    <option name="myTreeState">
+      <TreeState />
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6d6c6d1-a4bd-419e-a4d9-bac048123c30" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="6c5e18d6-117b-41a4-9ea3-f9eba8cd47d1/r:f0aeb65b-5b7e-4f67-9469-c2840e819e9d(TempModule6c5e18d6-117b-41a4-9ea3-f9eba8cd47d1/ConsoleModel_880176106606300)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="2ANGZZrZtto">
+                <node concept="3balQm" id="2ANGZZrZttp" role="aymYE" />
+                <node concept="2Clz$F" id="2ANGZZrZttq" role="aymYO" />
+                <node concept="2_V_lH" id="2ANGZZrZttr" role="1PhJh3">
+                  <ref role="2_V_lI" node="2ANGZZrZttq" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WVnElPfIjjFlPYeYsQSDpmsXGn" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7802d271-ed6b-445c-b99d-fa6cc5f4e9f5(NewLanguageTrial)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:a7e42b44-e224-47bf-9f3e-756d01630965(NewLanguageTrial.structure) in IdeaFile[path: C:/Users/sepuri/Desktop/Mps Projects/CalculatornewCopy/languages/NewLanguageTrial/models/NewLanguageTrial.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2527d9f-0804-4b88-b92a-085f8ba5108b(NewCalculator)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCalculator#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:08ba7eb8-5e2d-4676-b619-95abf0cf8b25(main@generator) in IdeaFile[path: C:/Users/sepuri/Desktop/Mps Projects/CalculatornewCopy/languages/NewCalculator/generator/templates/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f5f9841e-1bc3-465e-8a10-c54eca58ae7e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7802d271-ed6b-445c-b99d-fa6cc5f4e9f5(NewLanguageTrial)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f5f9841e-1bc3-465e-8a10-c54eca58ae7e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewSolutiontrial" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f5f9841e-1bc3-465e-8a10-c54eca58ae7e" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewSolutiontrial" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:14377d5c-3bce-42b9-adc1-8722d4b1a175(NewSolutiontrial.sandbox) in IdeaFile[path: C:/Users/sepuri/Desktop/Mps Projects/CalculatornewCopy/solutions/NewSolutiontrial/models/NewSolutiontrial.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2527d9f-0804-4b88-b92a-085f8ba5108b(NewCalculator)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCalculator#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2527d9f-0804-4b88-b92a-085f8ba5108b(NewCalculator)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7802d271-ed6b-445c-b99d-fa6cc5f4e9f5(NewLanguageTrial)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Java Application.Node MyCalculator (2)">
+    <configuration name="Node MyCalculator (1)" type="Java Application" factoryName="Java" temporary="true">
+      <myNode>
+        <MyState>
+          <option name="myNodePointer" value="r:b1f58f63-4ede-4409-9250-eff18548fbc6(NewSolution3.sandbox)/4403033568634534167" />
+          <option name="myNodeText" value="NewSolution3.sandbox.MyCalculator" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2019.3" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node MyCalculator (2)" type="Java Application" factoryName="Java" temporary="true">
+      <myNode>
+        <MyState>
+          <option name="myNodePointer" value="r:14377d5c-3bce-42b9-adc1-8722d4b1a175(NewSolutiontrial.sandbox)/1744137582703225876" />
+          <option name="myNodeText" value="NewSolutiontrial.sandbox.MyCalculator" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2019.3" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Node MyCalculator" type="Java Application" factoryName="Java" temporary="true">
+      <myNode>
+        <MyState>
+          <option name="myNodePointer" value="r:d2496737-a0b0-479c-b996-a7b1c989edf0(NewCalculator.sandbox)/1744137582703225876" />
+          <option name="myNodeText" value="NewCalculator.sandbox.MyCalculator" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2019.3" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Application.Node MyCalculator (2)" />
+        <item itemvalue="Java Application.Node MyCalculator" />
+        <item itemvalue="Java Application.Node MyCalculator (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6d6c6d1-a4bd-419e-a4d9-bac048123c30" name="Default Changelist" comment="" />
+      <created>1579243519381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579243519381</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="374" y="211" key="#MPSPropertiesConfigurable" timestamp="1579868398807">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="374" y="211" key="#MPSPropertiesConfigurable/0.0.1440.860@0.0.1440.860" timestamp="1579868398807" />
+    <state x="400" y="187" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1579868193311">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="187" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1440.860@0.0.1440.860" timestamp="1579868193311" />
+    <state x="525" y="127" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1579689196035">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="525" y="127" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1440.860@0.0.1440.860" timestamp="1579689196035" />
+    <state x="450" y="187" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1579868275503">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="187" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579868275503" />
+    <state x="500" y="187" key="FileChooserDialogImpl" timestamp="1579689022238">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="187" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1579689022238" />
+    <state width="611" height="277" key="GridCell.Tab.0.bottom" timestamp="1579868329241">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="611" height="277" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1579868329241" />
+    <state width="611" height="277" key="GridCell.Tab.0.center" timestamp="1579868329241">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="611" height="277" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1579868329241" />
+    <state width="611" height="277" key="GridCell.Tab.0.left" timestamp="1579868329241">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="611" height="277" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1579868329241" />
+    <state width="611" height="277" key="GridCell.Tab.0.right" timestamp="1579868329241">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="611" height="277" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1579868329241" />
+    <state width="698" height="284" key="GridCell.Tab.1.bottom" timestamp="1579254107726">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="284" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1579254107726" />
+    <state width="698" height="284" key="GridCell.Tab.1.center" timestamp="1579254107726">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="284" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1579254107726" />
+    <state width="698" height="284" key="GridCell.Tab.1.left" timestamp="1579254107726">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="284" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1579254107726" />
+    <state width="698" height="284" key="GridCell.Tab.1.right" timestamp="1579254107726">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="284" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1579254107726" />
+    <state x="428" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1579757727618">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="428" y="257" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1579757727618" />
+    <state x="470" y="332" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog" timestamp="1579695759956">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="470" y="332" key="jetbrains.mps.ide.newModuleDialogs.CloneModuleDialog/0.0.1440.860@0.0.1440.860" timestamp="1579695759956" />
+    <state x="558" y="234" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1579868371473">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="558" y="234" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1440.860@0.0.1440.860" timestamp="1579868371473" />
+  </component>
+</project>
